@@ -42,7 +42,7 @@ const Timer = () => {
      <div className="timer-container">
         <CountdownCircleTimer
             {...timerProps}
-            colors="#ED0000"
+            colors="#f9de1e"
             className="timer-circle"
             duration={daysDuration}
             initialRemainingTime={remainingTime}
@@ -55,7 +55,7 @@ const Timer = () => {
         </CountdownCircleTimer>
         <CountdownCircleTimer
             {...timerProps}
-            colors="#ED0000"
+            colors="#f9de1e"
             className="timer-circle"
             duration={daySeconds}
             initialRemainingTime={remainingTime % daySeconds}
@@ -71,7 +71,7 @@ const Timer = () => {
         </CountdownCircleTimer>
         <CountdownCircleTimer
             {...timerProps}
-            colors="#ED0000"
+            colors="#f9de1e"
             className="timer-circle"
             duration={hourSeconds}
             initialRemainingTime={remainingTime % hourSeconds}
@@ -88,7 +88,7 @@ const Timer = () => {
 
         <CountdownCircleTimer
             {...timerProps}
-                colors="#ED0000"
+                colors="#f9de1e"
                 className="timer-circle"
                 duration={minuteSeconds}
                 initialRemainingTime={remainingTime % minuteSeconds}
