@@ -9,7 +9,6 @@ const Timer = () => {
 
     const timerProps = {
         isPlaying: true,
-        size: 120,
         strokeWidth: 6
     };
 
@@ -44,6 +43,7 @@ const Timer = () => {
         <CountdownCircleTimer
             {...timerProps}
             colors="#ED0000"
+            className="timer-circle"
             duration={daysDuration}
             initialRemainingTime={remainingTime}
         >
@@ -56,6 +56,7 @@ const Timer = () => {
         <CountdownCircleTimer
             {...timerProps}
             colors="#ED0000"
+            className="timer-circle"
             duration={daySeconds}
             initialRemainingTime={remainingTime % daySeconds}
             onComplete={(totalElapsedTime) => ({
@@ -71,6 +72,7 @@ const Timer = () => {
         <CountdownCircleTimer
             {...timerProps}
             colors="#ED0000"
+            className="timer-circle"
             duration={hourSeconds}
             initialRemainingTime={remainingTime % hourSeconds}
             onComplete={(totalElapsedTime) => ({
@@ -87,6 +89,7 @@ const Timer = () => {
         <CountdownCircleTimer
             {...timerProps}
                 colors="#ED0000"
+                className="timer-circle"
                 duration={minuteSeconds}
                 initialRemainingTime={remainingTime % minuteSeconds}
                 onComplete={(totalElapsedTime) => ({

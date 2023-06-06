@@ -55,6 +55,9 @@ function App() {
 <path d="M167.439 232.261H160.183V228.799L167.096 212.427H171.243V228.799H173.039V232.261H171.243V236.657H167.444V232.261H167.439ZM167.439 228.799V219.351H167.371L163.64 228.799H167.439Z" fill="#ED0000" className="svg-elem-26"></path>
 </svg>
         </div>
+
+        <h1>MORE INFO COMING SOON</h1>
+        <h2>STAY TUNED! 🇻🇳</h2>
        
 
         <Timer />
